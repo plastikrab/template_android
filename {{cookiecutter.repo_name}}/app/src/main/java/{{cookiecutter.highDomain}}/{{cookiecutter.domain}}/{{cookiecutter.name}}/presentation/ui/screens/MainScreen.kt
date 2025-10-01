@@ -5,7 +5,7 @@ import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import dev.plastikrab.templateapp.presentation.viewmodel.MainViewModel
+import {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.presentation.viewmodel.MainViewModel
 
 @Composable
 fun MainScreen(

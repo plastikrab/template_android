@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae85762-2d7b-4323-900d-9b840547087c" name="Changes" comment="Replace placeholder app name with cookiecutter variable">
+    <list default="true" id="9ae85762-2d7b-4323-900d-9b840547087c" name="Changes" comment="Refactor: Replace placeholder app name with cookiecutter variable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/app/src/androidTest/java/dev/plastikrab/templateapp/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/app/src/androidTest/java/dev/plastikrab/templateapp/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/app/src/main/java/{{cookiecutter.highDomain}}/{{cookiecutter.domain}}/{{cookiecutter.name}}/presentation/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/app/src/main/java/{{cookiecutter.highDomain}}/{{cookiecutter.domain}}/{{cookiecutter.name}}/presentation/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/app/src/main/java/{{cookiecutter.highDomain}}/{{cookiecutter.domain}}/{{cookiecutter.name}}/presentation/ui/screens/MainScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/app/src/main/java/{{cookiecutter.highDomain}}/{{cookiecutter.domain}}/{{cookiecutter.name}}/presentation/ui/screens/MainScreen.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/MyAplications/AndroidStudioProjects/ExampleApp",
+    "last_opened_file_path": "E:/MyAplications/AndroidStudioProjects/SecondTestApp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -184,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759267903054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactor: Replace placeholder app name with cookiecutter variable">
+      <option name="closed" value="true" />
+      <created>1759303185330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759303185330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Replace placeholder app name with cookiecutter variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace placeholder app name with cookiecutter variable" />
+    <MESSAGE value="Refactor: Replace placeholder app name with cookiecutter variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: Replace placeholder app name with cookiecutter variable" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">

@@ -1,4 +1,4 @@
-package dev.plastikrab.templateapp
+package {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}
 
 import org.junit.Test
 
