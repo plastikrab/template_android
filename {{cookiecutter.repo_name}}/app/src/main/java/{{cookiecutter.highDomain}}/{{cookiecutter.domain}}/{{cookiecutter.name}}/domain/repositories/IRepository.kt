@@ -1,4 +1,4 @@
-package dev.plastikrab.templateapp.domain.repositories
+package {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.domain.repositories
 
 interface IRepository {
     fun method1()

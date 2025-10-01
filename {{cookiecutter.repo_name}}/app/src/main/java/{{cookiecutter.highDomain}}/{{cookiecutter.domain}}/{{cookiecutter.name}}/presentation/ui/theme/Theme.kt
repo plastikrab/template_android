@@ -1,4 +1,4 @@
-package dev.plastikrab.templateapp.presentation.ui.theme
+package {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.presentation.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "{{ cookiecutter.package_name }}"
+    namespace = "{{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "{{ cookiecutter.package_name }}"
+        applicationId = "{{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}"
         minSdk = {{ cookiecutter.min_sdk_version }}
         targetSdk = 35
         versionCode = 1

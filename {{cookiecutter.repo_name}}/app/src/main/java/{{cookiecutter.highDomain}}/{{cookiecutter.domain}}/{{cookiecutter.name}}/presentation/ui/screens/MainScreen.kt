@@ -1,4 +1,4 @@
-package dev.plastikrab.templateapp.presentation.ui.screens
+package {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.presentation.ui.screens
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

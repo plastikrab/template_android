@@ -1,6 +1,6 @@
-package dev.plastikrab.templateapp.data
+package {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.data
 
-import dev.plastikrab.templateapp.domain.repositories.IRepository
+import {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.domain.repositories.IRepository
 
 class RepositoryImpl : IRepository {
     override fun method1() {

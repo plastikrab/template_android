@@ -1,4 +1,4 @@
-package dev.plastikrab.templateapp.presentation.utils
+package {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.presentation.utils
 
 import android.Manifest
 import android.app.Activity

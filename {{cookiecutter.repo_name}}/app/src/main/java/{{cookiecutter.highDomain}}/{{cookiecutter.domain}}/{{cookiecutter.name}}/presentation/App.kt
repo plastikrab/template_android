@@ -1,4 +1,4 @@
-package dev.plastikrab.templateapp.presentation
+package {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.presentation
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

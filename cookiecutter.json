@@ -3,6 +3,5 @@
   "highDomain": "dev",
   "domain": "plastikrab",
   "name": "myapp",
-  "package_name": "dev.plastikrab.myapp",
   "min_sdk_version": "24"
 }

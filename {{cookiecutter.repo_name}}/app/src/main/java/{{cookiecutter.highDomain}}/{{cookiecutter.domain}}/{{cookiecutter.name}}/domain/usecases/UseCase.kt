@@ -1,4 +1,4 @@
-package dev.plastikrab.templateapp.domain.usecases
+package {{ cookiecutter.highDomain }}.{{ cookiecutter.domain }}.{{ cookiecutter.name }}.domain.usecases
 
 import javax.inject.Inject
 
